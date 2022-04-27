@@ -7,3 +7,5 @@ Face detection C++ code related to my Master's thesis (refer to my Linkedin prof
 Connected component labeling based off work here:
 
 <cite>Tang, J. W., Shaikh-Husin, N., Sheikh, U. U., & Marsono, M. N. (2018). A linked list run-length-based single-pass connected component analysis for real-time embedded hardware. Journal of Real-Time Image Processing, 15(1), 197-215.</cite>
+
+Won't run as is, please make sure OpenCV is installed correctly for compilation. Refer to function.hpp on how files are read/written. 
