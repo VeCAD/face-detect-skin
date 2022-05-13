@@ -60,5 +60,19 @@ int main() {
 		if (waitKey(30) >= 0)
 			break;
 	}
-*/	return 0;
+*/	
+
+//Clear all allocated memory
+del_uint_3D(rgb);
+del_float_3D(ycbcr);
+del_float_2D(sgmnt);
+del_uint_2D(pdf);
+del_uint_1D(hist);
+del_uint_2D(median);
+del_uint_2D(dilate);
+del_uint_2D(erosion);
+del_uint_2D(fill);
+
+return 0;
+
 }

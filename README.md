@@ -9,3 +9,5 @@ median_v folder contains the Verilog implementation of median filter with line b
 Connected component labeling based off work here:
 
 <cite>Tang, J. W., Shaikh-Husin, N., Sheikh, U. U., & Marsono, M. N. (2018). A linked list run-length-based single-pass connected component analysis for real-time embedded hardware. Journal of Real-Time Image Processing, 15(1), 197-215.</cite>
+
+Won't run as is, please make sure OpenCV is installed correctly for compilation. Refer to function.hpp on how files are read/written, ary.hpp on image array allocation/deallocation, and face_detect_gauss.cpp for main function. 
